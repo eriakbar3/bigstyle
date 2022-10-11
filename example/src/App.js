@@ -7,7 +7,7 @@ const App = () => {
   return (
     <>
 
-    <div style={{padding:30,gap:10}}>
+    <div className="box">
       <h4>Button</h4>
       <Button type="primary">Primary</Button>
       <Button type="secondary">Secondary</Button>
