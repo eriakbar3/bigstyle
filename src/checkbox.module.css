@@ -1,0 +1,50 @@
+.checkbox-group{
+  display: inline-flex;
+}
+.svgIcon{
+  border: 1px solid #C9C9C9;
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+}
+.checkbox{
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+}
+.svgRect{
+  fill:#0549CF;
+}
+.svgRectWhite{
+  fill:#FFFFFF;
+}
+.svgRectWhite{
+  fill:#FFFFFF;
+}
+.checkbox-group:hover .svgIcon{
+  border: 1px solid #043DAC;
+}
+.checkbox-group:hover .svgRect{
+  fill:#043DAC
+}
+.checkbox-group:hover .svgRectWhite{
+  stroke:#043DAC
+}
+.checkbox:focus + .svgIcon{
+  border: 1px solid #043DAC;
+  outline: 3px solid #CDDBF5;
+}
+.checkbox:focus-visible + .svgIcon{
+  border: 1px solid #043DAC;
+  outline: 3px solid #CDDBF5;
+}
+.checkbox-group label{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.006em;
+  color: #1E1E1E;
+  margin-left: 8px;
+}

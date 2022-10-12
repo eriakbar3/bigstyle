@@ -1,0 +1,116 @@
+.input-group {
+    margin-bottom: 15px;
+}
+.inputControl{
+    width: 100%;
+    padding: 6px 12px;
+    background: #FFFFFF;
+    border: 1px solid #E4E4E4;
+    border-radius: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #1E1E1E;
+}
+.inputControl:hover{
+  border: 1px solid #043DAC;
+}
+.inputControl:focus{
+  border: 1px solid #043DAC;
+  outline: 3px solid #CDDBF5;
+}
+.inputDisable{
+  background: #EFEFEF;
+  border: 1px solid #E4E4E4;
+  border-radius: 5px;
+  cursor: not-allowed;
+}
+.inputDisable:hover{
+  background: #EFEFEF;
+  border: 1px solid #E4E4E4 !important;
+  border-radius: 5px;
+}
+/* do not group these rules */
+.inputControl::-webkit-input-placeholder {
+    color: #AAAAAA;
+}
+.inputControl:-moz-placeholder {
+    /* FF 4-18 */
+    color: #AAAAAA;
+    opacity: 1;
+}
+.inputControl::-moz-placeholder {
+    /* FF 19+ */
+    color: #AAAAAA;
+    opacity: 1;
+}
+.inputControl:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #AAAAAA;
+}
+.inputControl::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #AAAAAA;
+}
+.inputControl::placeholder {
+    /* modern browser */
+    color: #AAAAAA;
+}
+.label{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.006em;
+  color: #1E1E1E;
+  padding: 4px 0px;
+  margin: 0;
+}
+.labelHelper{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+  color: #737373;
+  text-align: right;
+  padding: 4px 0px;
+  margin: 0;
+  /* margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px; */
+}
+.inputSuccess{
+  border: 1px solid #03A08B;
+}
+.inputSuccess:hover{
+  border: 1px solid #028574;
+}
+.inputSuccess:focus{
+  border: 1px solid #043DAC;
+  outline: 3px solid #CDECE8;
+}
+.inputDanger{
+  border: 1px solid #F54A45;
+}
+.inputDanger:hover{
+  border: 1px solid #CC3E39;
+}
+.inputDanger:focus{
+  border: 1px solid #CC3E39;
+  outline: 3px solid #FDDBDA;
+}
+.helperDanger{
+  color: #F54A45;
+}
+.helperSuccess{
+  color: #737373;
+}
+.inputBig{
+  padding: 10px 12px;
+}
