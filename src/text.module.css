@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.p {
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+.text-regular {
+    font-weight: 400;
+}
+
+.text-medium {
+    font-weight: 500;
+}
+
+.text-bold {
+    font-weight: 700;
+}
+
+.label-4 {
+    line-height: 16px;
+    font-size: 12px;
+}
+
+.label-3 {
+    line-height: 20px;
+    font-size: 14px;
+    letter-spacing: -0.006em;
+}
+
+.label-2 {
+    line-height: 24px;
+    font-size: 16px;
+    letter-spacing: -0.011em;
+}
+
+.label-1 {
+    line-height: 26px;
+    font-size: 18px;
+    letter-spacing: -0.011em;
+}
+
+.heading-6{
+    line-height: 28px;
+    font-size: 20px;
+    letter-spacing: -0.017em;
+}
+
+.heading-5 {
+    line-height: 32px;
+    font-size: 24px;
+    letter-spacing: -0.017em;
+}
+
+.heading-4 {
+    line-height: 36px;
+    font-size: 28px;
+    letter-spacing: -0.021em;
+}
+
+.heading-3 {
+    line-height: 44px;
+    font-size: 36px;
+    letter-spacing: -0.021em;
+}
+
+.heading-2 {
+    line-height: 58px;
+    font-size: 42px;
+    letter-spacing: -0.01em;
+}
+
+.heading-1 {
+    line-height: 58px;
+    font-size: 52px;
+    letter-spacing: -0.01em;
+}
