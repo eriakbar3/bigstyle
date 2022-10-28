@@ -3,6 +3,7 @@ import React from 'react'
 import { Button,Text } from 'bigstyle'
 import Input from './input-text'
 import Checkbox from './input-checkbox'
+import ToggleSwitch from './toggle-switch'
 import 'bigstyle/dist/index.css'
 
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
     <div className="box">
       <h4>Button</h4>
       <Button type="primary">Primary</Button>
+      <Button type="primary" size="big">Primary</Button>
       <Button type="secondary">Secondary</Button>
       <Button type="outlined">Outline</Button>
       <Button type="secondary" textOnly={true}>Secondary, Text Only</Button>
@@ -26,7 +28,7 @@ const App = () => {
     </div>
     <div>
       <h4>Typography</h4>
-      <Text type="label-1" textWeight="regular">Halo, selamat pagi!</Text>
+      <Text type="heading-5" textWeight="regular">Halo, selamat pagi!</Text>
       <Text type="label-1" textWeight="medium">Halo, selamat pagi!</Text>
       <Text type="label-1" textWeight="bold">Halo, selamat pagi!</Text>
       <Text type="label-2" textWeight="regular">Halo, selamat pagi!</Text>
@@ -40,7 +42,7 @@ const App = () => {
       <Text type="label-4" textWeight="bold">Halo, selamat pagi!</Text>
     </div>
     </form>
-
+    <ToggleSwitch/>
     </>
   )
 }

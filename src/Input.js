@@ -34,7 +34,7 @@ const InputText = (props) => {
   }
   return<div className={styles['input-group']}>
     {(props.label) ? <p className={styles.label}>{props.label}</p> :''}
-    <input type="text" className={classType()} name="name" disabled={(props.disabled) ? true :false} placeholder={props.placeholder}/>
+    <input type="text" className={classType()} name="name" disabled={(props.disabled) ? true :false} placeholder={props.placeholder} onChange={(e)=>props.onChange(e)}/>
     {(props.helper) ? <p className={classHelper()}>{props.helper}</p> :''}
   </div>
 }
